@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nine</title>
+    
+</head>
+<body>
+    Name + Name
+    <input type="text" id="nulle" name="nulle">
+    <input id="clickMe" type="button" value="Check" onclick="checkValue()" />
+<div id="entryway" display: none> bWVtb3J5 Base64 </div>
+<style>
+        #entryway {
+            display: none; /* Initially hide the entryway */
+        }
+    </style>
+    <script>
+        function checkValue() {
+            const inputValue = document.getElementById('nulle').value;
+            if (inputValue === '14') {
+                document.getElementById('entryway').style.display = 'block'; // Correctly show the entryway
+            } else {
+                document.getElementById('entryway').style.display = 'none'; // Hide the entryway if the value is incorrect
+            }
+        }
+    </script>
+    
+</body>
+</html>
